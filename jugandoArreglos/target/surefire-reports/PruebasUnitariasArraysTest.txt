@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: PruebasUnitariasArraysTest
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.211 s <<< FAILURE! -- in PruebasUnitariasArraysTest
-PruebasUnitariasArraysTest.pruebaSuma2nulo -- Time elapsed: 0.025 s <<< ERROR!
-java.lang.NullPointerException: Cannot read the array length because "num" is null
-	at itszn.edu.mx.jugandoarreglos.OperacionesArrays.calcularSuma(OperacionesArrays.java:16)
-	at PruebasUnitariasArraysTest.pruebaSuma2nulo(PruebasUnitariasArraysTest.java:55)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.112 s -- in PruebasUnitariasArraysTest

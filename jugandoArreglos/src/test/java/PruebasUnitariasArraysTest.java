@@ -49,7 +49,7 @@ public class PruebasUnitariasArraysTest {
     
     @Test
     public void pruebaSuma2nulo(){
-        float[] entrada = null;
+        float[] entrada = {};
         float salidaEsperada=0f;
         
         float salidaReal=opa.calcularSuma(entrada);
