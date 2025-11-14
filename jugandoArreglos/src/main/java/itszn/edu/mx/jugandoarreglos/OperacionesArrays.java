@@ -22,11 +22,13 @@ public class OperacionesArrays {
     public float calcularPromedio(float[] num){
         float suma=0f;
         float promedio=0f;
+        if(num.length > 0){
         //Recorrer el arreglo
         for(int i=0; i<num.length; i++){
             suma = suma + num[i];
         }
         promedio = suma/((float)num.length);
+        }
         return promedio;
     }//calcularPromedio end
     

@@ -59,8 +59,8 @@ public class PruebasUnitariasArraysTest {
     
     @Test
      public void pruebaPromedio1(){
-        float[] entrada = {9f,10f,8f};
-        float salidaEsperada=9f;
+        float[] entrada = {};
+        float salidaEsperada=0f;
         
         float salidaReal=opa.calcularPromedio(entrada);
         
