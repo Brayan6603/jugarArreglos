@@ -16,7 +16,7 @@ pipeline {
 	stages {
 		stage('Descarga') {
 			steps {
-				git url: 'https://github.com/brayan6603/JugandoArreglos.git', branch: 'main'
+				git url: 'https://github.com/Brayan6603/jugarArreglos.git', branch: 'main'
 			}
 		}
 
