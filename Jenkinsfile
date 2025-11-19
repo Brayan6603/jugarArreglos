@@ -2,7 +2,7 @@ pipeline {
 	agent any
 
 	tools {
-		maven 'maven_devops'
+		maven 'devops_maven'
 	}
 
 	triggers {
